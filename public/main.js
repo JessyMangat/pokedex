@@ -1,3 +1,5 @@
+'use strict';
+
 document.addEventListener('DOMContentLoaded', () => {
   const elements = {
     searchForm: document.getElementById('search'),
