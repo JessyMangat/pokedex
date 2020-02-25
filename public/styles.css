@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+.main-header {
+	justify-content: space-between;
+	color: white;
+}
+
+.main-header form {
+	display: flex;
+}
+
+.main-header form button {
+	margin-left: .8rem;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	margin-top: 2.5rem;
+}
+
+#pokemon-image {
+	width: 20rem;
+	height: 20rem;
+}
+
+#pokemon-label {
+	width: 100%;
+	text-align: center;
+}

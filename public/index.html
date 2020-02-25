@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Pokédex</title>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/styles.css">
+		<script src="/main.js" defer></script>
+	</head>
+	<body>
+		<header class="main-header navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar bg-dark">
+			<h1>Pokédex</h1>
+			<form id="search">
+				<input class="form-control" name="pokemonName" type="text" placeholder="Search by name...">
+				<button class="btn btn-info">Search</button>
+			</form>
+		</header>
+		<main class="container">
+			<img id="pokemon-image" src="/placeholder.png" alt="No results">
+			<h1 id="pokemon-label">No Results</h1>
+		</main>
+
+	</body>
+</html>
