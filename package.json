@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
-  "dependencies": {},
-  "devDependencies": {
-    "eslint": "^6.8.0",
+  "dependencies": {
     "http-server": "^0.12.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
   },
   "scripts": {
     "start": "http-server --cors",
